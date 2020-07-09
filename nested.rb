@@ -1,3 +1,4 @@
+require 'pry'
 
 def hopper
 	programmer_hash = 
@@ -15,7 +16,8 @@ def hopper
           :languages => ["C"]
         }
      }
-
+	binding.pry
+	# programmer_hash[]
 
 end
 
